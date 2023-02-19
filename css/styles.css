@@ -19,6 +19,9 @@ body {
 .fw-300{
     font-weight: 300;
 }
+.fw-700{
+    font-weight: 700;
+}
 .centrar-texto{
     text-align: center;
 }
@@ -27,6 +30,18 @@ body {
 }
 .interlineado {
     margin-bottom: 3rem;
+}
+.margen-right{
+    margin-right: 2rem;
+}
+.margen-left-1{
+    margin-left: 5rem;
+}
+.margen-left-2{
+    margin-left: 2rem;
+}
+.margen-bottom{
+    margin-bottom: 8rem;
 }
 
 /* Grid */ 
@@ -245,12 +260,9 @@ h4{
 .formulario-sesion .campo label {
     flex: 0 0 10rem;
 }
-.formulario-sesion .campo input:not([type="submit"]){
-    flex: 1;
-    border: 1px solid  #e1e1e1;
-    padding: 1rem;
-}
-.formulario-sesion .campo select{
+.formulario-sesion .campo input:not([type="submit"]), 
+.formulario-sesion .campo select,
+.formulario-sesion textarea{
     flex: 1;
     border: 1px solid  #e1e1e1;
     padding: 1rem;
@@ -273,6 +285,7 @@ h4{
     margin: 0;
     padding: 2rem 0;
     color: white;
+    bottom: auto;
 }
 
 
@@ -384,4 +397,47 @@ h4{
 .boton-grande{
     display: block;
     width: 100%;
+}
+
+/**** Objetivo registro****/
+.formulario-oe{
+    background-color: white;
+    padding: 5rem;
+}
+@media (min-width: 768px){
+    .formulario-oe{
+        margin-top: -10rem;
+    }
+}
+.formulario-oe .campo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.formulario-oe .campo label {
+    flex: 0 0 30rem;
+}
+.formulario-oe .campo input:not([type="submit"]), 
+.formulario-oe .campo select{
+    flex: 1;
+    border: 1px solid  #e1e1e1;
+    padding: 1rem;
+}
+.formulario-oe .enviar{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*Nosotros*/
+.contenido-nosotros {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 2rem;
+}
+
+.texto-nosotros blockquote {
+    font-weight: 900;
+    font-size: 2rem;
+    margin: 0;
+    padding: 1rem 0 3rem 0;
 }
