@@ -1,9 +1,9 @@
 # Achieve It!: Website to schedule goals
 ## **Index**
-1. ¿What is Achieve It!?
-2. Tools used for development
-3. What did I develop?
-4. Try the demo 
+1. [¿What is Achieve It!?](https://github.com/IreneLopezM/Achieve-It#1-what-is-achieve-it)
+2. [Tools used for development](https://github.com/IreneLopezM/Achieve-It#2-tools-used-for-development)
+3. [What did I develop?](https://github.com/IreneLopezM/Achieve-It#3-what-did-i-develop)
+4. [Try the demo ](https://github.com/IreneLopezM/Achieve-It#4-try-the-demo)
 
 ## 1. ¿What is Achieve It!?
 It is a Web Application where registered users will can be guided to create and achieve their objectives using the "SMART" methodology. In this app, users will be able to create objectives, as well as different activities and strategies that will help them achieve them.
